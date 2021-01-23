@@ -19,7 +19,7 @@ mongoose.connect(
       useCreateIndex: true,
       useFindAndModify: false
     }
-  );
+);
 
 app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "./public/index.html"));
@@ -36,5 +36,5 @@ app.get("/stats", (req, res) => {
 app.use(require("./routes/api-routes.js"));
 
 app.listen(PORT, () => {
-  console.log(`Application is now running on port ${PORT}!`);
+  console.log(`Application is running on port ${PORT}!`);
 });
