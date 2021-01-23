@@ -33,3 +33,9 @@ Welcome to 2021! Since we're all still stuck at home all the time, we'd might as
 ## SCREENSHOTS
 
 ![Application Screenshot](./assets/)
+
+## CONTACT
+
+:link: https://github.com/ethanrmcdowell
+  
+:e-mail: ethan.r.mcdowell@gmail.com
