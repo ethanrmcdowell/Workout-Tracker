@@ -36,30 +36,6 @@ router.post("/api/workouts", async (req,res) => {
     });
 });
 
-
-
-// app.get("/api/workouts/range", (req,res) => {
-//     db.Workout.find({})
-//     .limit(7)
-//     .then((dbWorkout) => {
-//         console.log(dbWorkout);
-//         res.json(dbWorkout);
-//     })
-//     .catch((err) => {
-//         res.json(err);
-//     });
-// });
-
-// router.get("/api/workouts/range", ({ query }, res) => {
-//     db.Workout.find({ day: { $gte: query.start, $lte: query.end } })
-//       .then(dbWorkouts => {
-//         res.json(dbWorkouts);
-//       })
-//       .catch(err => {
-//         res.json(err);
-//       });
-// });
-
 router.get("/api/workouts/range", (req, res) => {
     db.Workout.find({}).limit(7)
       .then((dbWorkout) => {
