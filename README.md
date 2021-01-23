@@ -32,4 +32,4 @@ Welcome to 2021! Since we're all still stuck at home all the time, we'd might as
 
 ## SCREENSHOTS
 
-![Application Screenshot](./assets/)
+![Application Screenshot](./assets/demo.png)
